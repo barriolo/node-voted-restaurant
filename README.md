@@ -12,6 +12,8 @@ Clone the project
 Install dependencies
  yarn install
 
+Create a docker image for Postgres
+https://hub.docker.com/_/postgres
 
 Change your readme file
 Clone .env.example to .env and change values inner file
