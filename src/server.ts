@@ -2,10 +2,13 @@ import bodyParser from 'body-parser';
 import express, { Request, Response, NextFunction } from 'express';
 import cors from 'cors';
 import 'express-async-errors';
+import Dotenv from 'dotenv';
 import routes from './routes';
 import './database';
 import 'reflect-metadata';
 import AppError from './errors/AppError';
+
+Dotenv.config();
 
 const app = express();
 app.use(cors());
